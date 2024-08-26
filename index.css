@@ -1,0 +1,52 @@
+
+
+
+:root {
+  --main-text-color: #000000;
+  --main-background-color: rgb(57, 55, 55);
+  --accent-color: #ff9900;
+  --icon-color:red;
+}
+
+.custom-underline {
+  text-decoration: underline;
+  text-underline-offset: 10px; /* Adjust the offset value as needed */
+}
+.pbarc{
+  background-color: var(--main-background-color);
+}
+
+.title {
+  font-size: 2rem;
+  position: relative;
+  color: rgb(28, 21, 21);
+  border-bottom-style: solid;
+  border-bottom-color: var(--main-background-color);
+}
+.heading {
+  height: 320px;
+  color: white;
+  background-color: var(--main-background-color);
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.picture {
+  height: 15.6rem;
+  width: 15.6rem;
+}
+.underline{
+  border-left: -3px;
+  margin: 0px;
+  border-left-style: solid ;
+  border-color: var(--main-background-color);
+  
+}
+
+.picture{
+  margin: 2px;
+  height: 18rem;
+  width: 18rem;
+}
+
